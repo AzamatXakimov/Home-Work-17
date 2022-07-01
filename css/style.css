@@ -12,6 +12,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @font-face {
     font-family: "Inter";
     font-style: normal;
@@ -208,11 +215,10 @@ body{
     
     color: #000000;
     border: none;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #555;
 }
 .input-zone:focus{
-    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.5);
-            box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    border-bottom: 1px solid #000000;
 }
 .input-zone::-webkit-input-placeholder{
     font-weight: 400;
